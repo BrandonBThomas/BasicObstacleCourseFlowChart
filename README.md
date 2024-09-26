@@ -20,6 +20,5 @@ flowchart TD
     M --> S
     O --> S
     Q --> S
-    S[Clear Obstacle] --> T[Hit Buzzer]
-    T --> U[Course Finish]
+    S[Hit Buzzer On Top Of Warped Wall] --> T[Course Finish]
 ```
