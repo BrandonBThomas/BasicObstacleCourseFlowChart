@@ -1,6 +1,6 @@
 # BasicObstacleCourseFlowChart
 Basic Obstacle Course FlowChart
-'''mermaid
+```mermaid
 flowchart TD
     A[Obstacle Course] --> B(Balance Obstacle)
     B --> C[Use Hands] --> F
@@ -22,4 +22,4 @@ flowchart TD
     Q --> S
     S[Clear Obstacle] --> T[Hit Buzzer]
     T --> U[Course Finish]
-'''
+```
