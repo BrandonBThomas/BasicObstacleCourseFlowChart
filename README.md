@@ -10,7 +10,7 @@ flowchart TD
     G[Complete Obstacle] -->|Next Obstacle| H(Peg Board)
     H --> D
     H --> J[Drop Peg] --> F
-    H --> K[Land On Finiashing Platform] --> L
+    H --> K[Land On Finishing Platform] --> L
     L[Complete Obstacle] -->|Next Obstacle| M(Warped Wall)
     M --> N[Miss] --> O
     O[Attempt 2] --> P
